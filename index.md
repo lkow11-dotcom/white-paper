@@ -31,34 +31,31 @@ Installation, updating, or removal is the most common problem state, because fiv
 
 >**TAB1: Third-Party Software category sample results ranked by number of replies, with named entities and problem states derived from subject lines.**
 
-**```**
-
-.
+```
 └── Third-Party Software/
-├── Loading / Startup/
-│ ├── Appimage
-│ ├── Freecad
-│ └── Shotcut
-├── Installation / Updating / Removal/
-│ ├── Python 3.11
-│ ├── Virtual Environment
-│ ├── Firefox
-│ ├── VLC Media Player
-│ ├── KWin
-│ ├── Davinci Resolve
-│ ├── Manjaro Linux
-│ └── XLibre
-├── Crashing: OpenShot
-├── Freezing / Unresponsiveness/
-│ ├── SIGKILL
-│ └── SIGCHLD
-└── Access / Modification/
-├── Windows 10
-├── ISO image
-├── USB stick
-└── dd
-
-**```**
+    ├── Loading / Startup/
+    │   ├── AppImage
+    │   ├── FreeCAD
+    │   └── Shotcut
+    ├── Installation / Updating / Removal/
+    │   ├── Python 3.11
+    │   ├── Virtual Environment
+    │   ├── Firefox
+    │   ├── VLC Media Player
+    │   ├── KWin
+    │   ├── DaVinci Resolve
+    │   ├── Manjaro Linux
+    │   └── XLibre
+    ├── Crashing: OpenShot
+    ├── Freezing / Unresponsiveness/
+    │   ├── SIGKILL
+    │   └── SIGCHLD
+    └── Access / Modification/
+        ├── Windows 10
+        ├── ISO image
+        ├── USB stick
+        └── dd
+```
 
 >**DIA1: Relationships between named entities and problem states, derived from the third-party software category sample, organized according to the smaller of the two sets.**
 
@@ -99,23 +96,21 @@ How are AppImage related problems distributed across the different problem state
 
 The logic tree verifies that Loading / Startup is the most common problem state, containing seven entities across five topics, while AppImage related topics appear in four different problem states. This demonstrates that AppImage related issues extend beyond startup failures and involve multiple types of software problems.
 
-**```**
-  .
+```
 └── Third-Party Software/
-├── Loading / Startup/
-│ ├── Appimage
-│ ├── libwebkit2gtk-4.0
-│ ├── Rawtherapee
-│ ├── Pcsx2
-│ ├── Openshot 3.0
-│ ├── VSCodium
-│ └── libgio
-├── Freezing / Unresponsiveness: Appimage
-├── Access / Modification: Appimage
-├── Crashing: Appimage
-└── Incorrect Output / Behaviour: Lunar Client
-
-**```**
+    ├── Loading / Startup/
+    │   ├── AppImage
+    │   ├── libwebkit2gtk-4.0
+    │   ├── RawTherapee
+    │   ├── PCSX2
+    │   ├── OpenShot 3.0
+    │   ├── VSCodium
+    │   └── libgio
+    ├── Freezing / Unresponsiveness: AppImage
+    ├── Access / Modification: AppImage
+    ├── Crashing: AppImage
+    └── Incorrect Output / Behaviour: Lunar Client
+```
 
 >**DIA1:  Relationships between named entities and problem states, derived from the third-party software entity sample, organized according to the smaller of the two sets.**
 
